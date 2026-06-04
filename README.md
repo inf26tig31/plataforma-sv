@@ -1,7 +1,7 @@
 # Plataforma Web de Streaming de Vídeo
 
 Repositório para hospedar o projeto desenvolvido para a unidade curricular de Tecnologias Internet. 
-Desenvolvido pelo Grupo XX: @alfordesdf-bot, @juhcruz, @tonyaguiar12.
+Desenvolvido pelo Grupo inf26tig31: @alfordesdf-bot, @juhcruz, @tonyaguiar12.
 
 ## Descrição do Projeto
 
