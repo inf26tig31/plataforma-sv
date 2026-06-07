@@ -7,11 +7,11 @@ Desenvolvido pelo Grupo inf26tig31: @alfordesdf-bot, @juhcruz, @tonyaguiar12.
 
 O tema selecionado pelo nosso grupo insere-se na área da Multimédia e consiste no desenvolvimento de uma Plataforma Web de streaming de vídeo, inspirada em interfaces modernas de entretenimento digital. O objetivo é criar um catálogo interativo de conteúdos audiovisuais, proporcionando uma experiência de utilizador fluida e visualmente imersiva.
 
-O projeto será estruturado através de um sítio Web com quatro páginas estáticas principais[cite: 4]:
-1. **Landing Page:** Página introdutória para captação de utilizadores, destacando os serviços da plataforma[cite: 5].
-2. **Catálogo Principal (Home):** Interface de navegação organizada em "carrosséis" dinâmicos divididos por géneros ou tendências[cite: 6].
+O projeto será estruturado através de um sítio Web com quatro páginas estáticas principais:
+1. **Landing Page:** Página introdutória para captação de utilizadores, destacando os serviços da plataforma.
+2. **Catálogo Principal (Home):** Interface de navegação organizada em "carrosséis" dinâmicos divididos por géneros ou tendências.
 3. **Página de Detalhe e Leitor:** Apresentação da sinopse da obra escolhida, classificação, elenco e o respetivo reprodutor de vídeo (player multimédia).
-4. **Página de Registo / Subscrição:** Formulário semântico estruturado para adesão ou contacto de novos subscritores[cite: 8].
+4. **Página de Registo / Subscrição:** Formulário semântico estruturado para adesão ou contacto de novos subscritores.
 
 ## Tecnologias e Arquitetura
 
@@ -20,7 +20,7 @@ O projeto será estruturado através de um sítio Web com quatro páginas estát
 * **XML e XSD:** A arquitetura de dados do catálogo será assegurada por um documento XML estruturado e validado pelo seu respetivo Schema (XSD).
 * **JavaScript:** Como principal elemento de valorização técnica, implementaremos JavaScript no lado do cliente (DOM) para extrair os dados deste XML e gerar, de forma automatizada e dinâmica, as listagens visuais de filmes na página do Catálogo.
 
-## Organização do repositório
+## Organização do repositório 
 
 Navegação pela estrutura do projeto:
 
