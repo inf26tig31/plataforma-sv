@@ -15,18 +15,10 @@ O projeto será estruturado através de um sítio Web com quatro páginas estát
 
 ## Tecnologias e Arquitetura
 
-HTML5: 
-
-CSS3: 
-
-XML/XSD: [XML](https://developer.mozilla.org/pt-PT/docs/Web/XML) e [XSD](https://www.w3.org/XML/Schema)
-
-JavaScript: [JavaScript](https://developer.mozilla.org/pt-PT/docs/Web/JavaScript)
-
 * **HTML5:** Construção do website com recurso a marcação estritamente semântica (elementos como `video`, `main`, `section`, `nav`) - [HTML5](https://developer.mozilla.org/pt-PT/docs/Web/HTML)
 * **CSS3:** A estética dark mode e a organização do layout serão garantidas inteiramente por CSS3 externo. Faremos forte uso de Flexbox/Grid, transições hover dinâmicas nas miniaturas dos vídeos e media queries para assegurar total responsividade em múltiplos ecrãs - [CSS3](https://developer.mozilla.org/pt-PT/docs/Web/CSS)
-* **XML e XSD:** A arquitetura de dados do catálogo será assegurada por um documento XML estruturado e validado pelo seu respetivo Schema (XSD).
-* **JavaScript:** Como principal elemento de valorização técnica, implementaremos JavaScript no lado do cliente (DOM) para extrair os dados deste XML e gerar, de forma automatizada e dinâmica, as listagens visuais de filmes na página do Catálogo.
+* **XML e XSD:** A arquitetura de dados do catálogo será assegurada por um documento XML estruturado e validado pelo seu respetivo Schema (XSD) - [XML](https://developer.mozilla.org/pt-PT/docs/Web/XML) e [XSD](https://www.w3.org/XML/Schema)
+* **JavaScript:** Como principal elemento de valorização técnica, implementaremos JavaScript no lado do cliente (DOM) para extrair os dados deste XML e gerar, de forma automatizada e dinâmica, as listagens visuais de filmes na página do Catálogo - [JavaScript](https://developer.mozilla.org/pt-PT/docs/Web/JavaScript)
 
 ## Organização do Repositório
 
