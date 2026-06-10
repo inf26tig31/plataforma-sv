@@ -38,7 +38,7 @@ Documentação detalhada do projeto. Cada link abaixo direciona para o respetivo
 * [Capítulo 1: Apresentação do projeto](./documento/capitulo1.md)
 
 **Interface do utilizador**
-* [Capítulo 2: Protótipo da Interface e Mapa do Site](./documento/capitulo2.md)
+* [Capítulo 2: Protótipo da Interface e Mapa do Site](./documento/capituo2.md)
 
 **Produto e Requisitos**
 * [Capítulo 3: Implementação e Validação W3C](./documento/capitulo3.md)
