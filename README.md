@@ -43,14 +43,14 @@ Documentação detalhada do projeto. Cada link abaixo direciona para o respetivo
 **Produto e Requisitos**
 * [Capítulo 3: Implementação e Validação W3C](./documento/capitulo3.md)
 
-## Galeria
-
-| Página Inicial | Catálogo | Detalhe | Registo |
-| :---: | :---: | :---: | :---: |
-| ![Home](./src/assets/print1.jpeg) | ![Catalogo](assets/print2.jpeg) | ![Detalhe](assets/print3.jpeg) | ![Registo](assets/print4.jpeg) |
-
 ## Equipa
 
 * Alfordes João [@alfordesdf-bot](https://github.com/Username1)
 * Juliana Gonçalves [@juhcruz](https://github.com/Username2)
 * Tonilson Furtado [@tonyaguiar12](https://github.com/Username3)
+
+## Galeria
+
+| Página Inicial | Catálogo | Detalhe | Registo |
+| :---: | :---: | :---: | :---: |
+| ![Home](./src/assets/print1.jpeg) | ![Catalogo](./src/assets/print2.jpeg) | ![Detalhe](./src/assets/print3.jpeg) | ![Registo](./src/assets/print4.jpeg) |
