@@ -1,0 +1,207 @@
+/* ==========================================================================
+   css/layout.css
+   Estruturas de Grelha, Flexbox e Posicionamento Global
+   Nota: Ficheiro limpo e otimizado - Sem duplicações
+========================================================================== */
+
+/* --- 1. Contentores Globais --- */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-lg);
+}
+
+.grid-auto-fit {
+    display: grid;
+    /* Cria colunas responsivas automaticamente sem precisar de media queries extra */
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+.layout-principal {
+    display: grid;
+    /* Divide o ecrã: 3 frações para o Main, 1 fração para a Sidebar */
+    grid-template-columns: 3fr 1fr;
+    gap: var(--spacing-xl);
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+    align-items: start;
+}
+
+/* --- 2. Cabeçalho (Header & Nav) --- */
+#main-header {
+    background-color: rgba(8, 8, 10, 0.85);
+    backdrop-filter: blur(12px); 
+    border-bottom: 1px solid var(--color-bg-elevated);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#main-header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px; 
+}
+
+/* Afasta a lupa do logótipo e empurra o resto para a direita */
+.search-bar {
+    margin-right: auto;
+    margin-left: 2rem;
+}
+
+/* O SEGREDO: Aplicar o Flexbox diretamente na lista <ul> para ficarem lado a lado */
+#nav-menu .nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none; /* Remove as bolinhas brancas da lista */
+    gap: 2.5rem; 
+    margin: 0;
+    padding: 0;
+}
+
+/* --- 3. Secção Hero (Destaque Principal) --- */
+.hero-section {
+    /* Espaçamento para a secção respirar */
+    padding: var(--spacing-xl) 0;
+    margin-bottom: var(--spacing-xl);
+    border-bottom: 1px solid var(--color-bg-elevated);
+    /* Fundo ligeiramente diferente para dar profundidade */
+    background: linear-gradient(0deg, var(--color-bg-base) 0%, #0c0c0f 100%);
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: row; /* Coloca texto e vídeo lado a lado no Desktop */
+    align-items: center;
+    gap: 4rem; 
+}
+
+.hero-texto {
+    flex: 1; /* Ocupa 1 parte do espaço disponível */
+    padding-right: var(--spacing-lg); /* Impede o texto de colar no vídeo */
+    margin-bottom: var(--spacing-md);
+}
+
+.hero-media {
+    flex: 1.5; /* O vídeo ganha ligeiramente mais destaque que o texto */
+    aspect-ratio: 16/9; /* Garante que o contentor não colapsa */
+}
+
+/* Garante que o elemento de vídeo/iframe é responsivo e não quebra o layout */
+.video-player {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--shadow-card);
+    transition: transform var(--transition-fast);
+}
+
+/* --- 4. Sidebar (Barra Lateral) --- */
+.sidebar {
+    background-color: var(--color-bg-surface);
+    padding: var(--spacing-lg);
+    border-radius: var(--border-radius-md);
+    position: sticky; /* Mantém a sidebar visível ao fazer scroll */
+    top: 100px; /* Compensa a altura do header fixo (80px + 20px margem) */
+}
+
+/* --- 5. Rodapé (Footer) --- */
+#main-footer {
+    background-color: var(--color-bg-surface);
+    padding: var(--spacing-lg) 0;
+    border-top: 1px solid var(--color-bg-elevated);
+    margin-top: auto; /* Empurra o footer para o fundo se houver pouco conteúdo */
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--spacing-md);
+}
+
+.footer-info ul {
+    list-style: none;
+    display: flex;
+    gap: var(--spacing-md);
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* ==========================================================================
+   6. RESPONSIVIDADE (Media Queries)
+========================================================================== */
+
+/* --- Tablets e Ecrãs Médios --- */
+@media screen and (max-width: 992px) {
+    .layout-principal { 
+        grid-template-columns: 1fr; /* Colapsa a grelha para uma coluna */
+    }
+    
+    .sidebar { 
+        position: static; /* Remove o comportamento fixo no mobile */
+    }
+    
+    .hero-content { 
+        flex-direction: column-reverse; /* Coloca o vídeo em cima e o texto em baixo */
+        text-align: center; 
+        gap: var(--spacing-lg); 
+    }
+    
+    .hero-texto { 
+        padding-right: 0; /* Remove o padding que existia no desktop */
+    }
+}
+
+/* --- Mobile e Ecrãs Pequenos (Correção Definitiva) --- */
+@media screen and (max-width: 768px) {
+    /* 1. Permite que o cabeçalho se adapte à altura dos elementos */
+    #main-header nav { 
+        flex-wrap: wrap; /* Permite quebrar para a 2ª linha */
+        height: auto; 
+        min-height: 80px; 
+        padding: 15px; 
+    }
+
+    /* 2. O botão Menu fica na 1ª linha, encostado à direita */
+    #menu-toggle { 
+        order: 2; 
+        margin-left: auto; 
+        width: auto; 
+        min-width: 85px; 
+        text-align: center; 
+    }
+
+    /* 3. A Lupa salta para a 2ª linha, ocupando o ecrã todo */
+    .search-bar { 
+        order: 3; 
+        width: 100%; 
+        margin: 15px 0 5px 0; /* Dá espaço entre o logo e a lupa */
+    }
+
+    /* 4. O Menu Oculto abre perfeitamente por baixo de tudo */
+    #nav-menu { 
+        display: none; 
+        order: 4; 
+        position: absolute; 
+        top: 100%; /* Fica sempre colado ao fundo do cabeçalho */
+        left: 0; 
+        width: 100%; 
+        background-color: var(--color-bg-surface); 
+        padding: 25px 0; 
+        border-bottom: 1px solid var(--color-bg-elevated); 
+        z-index: 999; 
+        flex-direction: column; 
+        align-items: center; 
+        gap: 1.5rem; 
+    }
+    
+    #nav-menu.active { display: flex; }
+    
+    .footer-info { flex-direction: column; text-align: center; }
+}

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalogo.xsd">
+    
+    <filme id="f001">
+        <titulo>Spider-Man: Brand New Day</titulo>
+        <categoria>Ação</categoria>
+        <ano>2026</ano>
+        <classificacao>12+</classificacao>
+        <imagem>https://img.youtube.com/vi/8TZMtslA3UY/hqdefault.jpg</imagem>
+        <trailer>https://www.youtube.com/watch?v=8TZMtslA3UY</trailer>
+        <descricao>Peter Parker enfrenta novos desafios numa Nova Iorque que não o reconhece, lutando para manter o seu legado vivo.</descricao>
+    </filme>
+
+    <filme id="f002">
+        <titulo>Mutiny</titulo>
+        <categoria>Ação</categoria>
+        <ano>2026</ano>
+        <classificacao>16+</classificacao>
+        <imagem>https://img.youtube.com/vi/FKSdXH89jbo/hqdefault.jpg</imagem>
+        <trailer>https://www.youtube.com/watch?v=FKSdXH89jbo</trailer>
+        <descricao>Uma rebelião explosiva a bordo de um navio de alta segurança desencadeia uma corrida pela sobrevivência em alto mar.</descricao>
+    </filme>
+
+    <filme id="f003">
+        <titulo>Supergirl</titulo>
+        <categoria>Ação</categoria>
+        <ano>2026</ano>
+        <classificacao>12+</classificacao>
+        <imagem>https://img.youtube.com/vi/s1-pfiVMKAs/hqdefault.jpg</imagem>
+        <trailer>https://www.youtube.com/watch?v=s1-pfiVMKAs</trailer>
+        <descricao>A heroína de Krypton descobre o seu verdadeiro poder enquanto protege a Terra de uma ameaça intergaláctica sem precedentes.</descricao>
+    </filme>
+
+    <filme id="f004">
+        <titulo>Dune: Part Three</titulo>
+        <categoria>Ficção Científica</categoria>
+        <ano>2026</ano>
+        <classificacao>14+</classificacao>
+        <imagem>https://img.youtube.com/vi/w0KyEhJ-0S0/hqdefault.jpg</imagem>
+        <trailer>https://www.youtube.com/watch?v=w0KyEhJ-0S0</trailer>
+        <descricao>A conclusão épica da saga de Paul Atreides, onde o destino do universo será decidido nas areias de Arrakis.</descricao>
+    </filme>
+
+    <filme id="f005">
+        <titulo>The Mandalorian and Grogu</titulo>
+        <categoria>Ficção Científica</categoria>
+        <ano>2026</ano>
+        <classificacao>10+</classificacao>
+        <imagem>https://img.youtube.com/vi/IHWlvwu8t1w/hqdefault.jpg</imagem>
+        <trailer>https://www.youtube.com/watch?v=IHWlvwu8t1w</trailer>
+        <descricao>O mandaloriano Din Djarin e o seu aprendiz Grogu embarcam numa nova e perigosa jornada pelos confins da galáxia.</descricao>
+    </filme>
+
+    <filme id="f006">
+        <titulo>The Odyssey</titulo>
+        <categoria>Ficção Científica</categoria>
+        <ano>2026</ano>
+        <classificacao>12+</classificacao>
+        <imagem>https://img.youtube.com/vi/f_bKjZeJBBI/hqdefault.jpg</imagem>
+        <trailer>https://www.youtube.com/watch?v=f_bKjZeJBBI</trailer>
+        <descricao>Uma aventura deslumbrante que reescreve os limites da fantasia e exploração em mundos desconhecidos.</descricao>
+    </filme>
+
+    <filme id="f007">
+        <titulo>Toy Story 5</titulo>
+        <categoria>Animação</categoria>
+        <ano>2026</ano>
+        <classificacao>Livre</classificacao>
+        <imagem>https://img.youtube.com/vi/c51ND9Hdbw0/hqdefault.jpg</imagem>
+        <trailer>https://www.youtube.com/watch?v=c51ND9Hdbw0</trailer>
+        <descricao>Woody, Buzz e o resto do grupo regressam para mais uma aventura emocionante sobre amizade e lealdade.</descricao>
+    </filme>
+
+    <filme id="f008">
+        <titulo>Tom and Jerry: Forbidden Compass</titulo>
+        <categoria>Animação</categoria>
+        <ano>2026</ano>
+        <classificacao>Livre</classificacao>
+        <imagem>https://img.youtube.com/vi/cMmnkXyO1ys/hqdefault.jpg</imagem>
+        <trailer>https://www.youtube.com/watch?v=cMmnkXyO1ys</trailer>
+        <descricao>A clássica rivalidade de gato e rato atinge novos níveis mágicos numa caça ao tesouro por uma bússola proibida.</descricao>
+    </filme>
+
+    <filme id="f009">
+        <titulo>Minions &amp; Monsters</titulo>
+        <categoria>Animação</categoria>
+        <ano>2026</ano>
+        <classificacao>Livre</classificacao>
+        <imagem>https://img.youtube.com/vi/V-O-uBaHk3c/hqdefault.jpg</imagem>
+        <trailer>https://www.youtube.com/watch?v=V-O-uBaHk3c</trailer>
+        <descricao>As adoráveis criaturas amarelas encontram-se acidentalmente no meio de uma convenção de monstros assustadores.</descricao>
+    </filme>
+
+    <filme id="f010">
+        <titulo>Michael</titulo>
+        <categoria>Musical</categoria>
+        <ano>2026</ano>
+        <classificacao>12+</classificacao>
+        <imagem>https://img.youtube.com/vi/3zOLzsbOleM/hqdefault.jpg</imagem>
+        <trailer>https://www.youtube.com/watch?v=3zOLzsbOleM</trailer>
+        <descricao>A jornada biográfica e musical definitiva sobre a vida e o legado do inigualável Rei da Pop.</descricao>
+    </filme>
+
+    <filme id="f011">
+        <titulo>Wicked: For Good</titulo>
+        <categoria>Musical</categoria>
+        <ano>2026</ano>
+        <classificacao>10+</classificacao>
+        <imagem>https://img.youtube.com/vi/R2Xubj7lazE/hqdefault.jpg</imagem>
+        <trailer>https://www.youtube.com/watch?v=R2Xubj7lazE</trailer>
+        <descricao>A história não contada das bruxas de Oz ganha vida num espetáculo visual e sonoro de cortar a respiração.</descricao>
+    </filme>
+
+    <filme id="f012">
+        <titulo>Sing 3</titulo>
+        <categoria>Musical</categoria>
+        <ano>2026</ano>
+        <classificacao>Livre</classificacao>
+        <imagem>https://img.youtube.com/vi/QOdmHn_ogZo/hqdefault.jpg</imagem>
+        <trailer>https://www.youtube.com/watch?v=QOdmHn_ogZo</trailer>
+        <descricao>Buster Moon e a sua trupe animal preparam o seu maior espetáculo de sempre, enfrentando novos desafios musicais.</descricao>
+    
+    </filme>
+    <filme id="f0013">
+        <titulo>Transmissão Especial Live</titulo>
+        <categoria>Exclusivos</categoria>
+        <ano>2026</ano>
+        <classificacao>Livre</classificacao>
+        <imagem>https://img.youtube.com/vi/N_KOot5W29A/hqdefault.jpg</imagem>
+        <trailer>https://www.youtube.com/live/N_KOot5W29A?feature=shared</trailer>
+        <descricao>Conteúdo exclusivo transmitido em direto na nossa plataforma. Assiste à gravação completa do evento e acompanha todos os detalhes.</descricao>
+    </filme>
+
+</catalogo>

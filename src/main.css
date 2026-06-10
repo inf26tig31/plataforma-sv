@@ -1,0 +1,30 @@
+/* css/main.css */
+@import url('variable.css');
+@import url('layout.css');
+@import url('components.css');
+
+/* Reset Global da Box Model (Requisito da Checklist) */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; /* Navegação suave em âncoras */
+}
+
+body {
+    background-color: var(--color-bg-base);
+    color: var(--color-text-main);
+    font-family: var(--font-family-base);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Imagens e Vídeos responsivos por defeito */
+img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

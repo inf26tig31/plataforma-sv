@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="catalogo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="filme" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="titulo" type="xs:string"/>
+                            <xs:element name="categoria" type="xs:string"/>
+                            <xs:element name="ano" type="xs:gYear"/>
+                            <xs:element name="classificacao" type="xs:string"/>
+                            <xs:element name="imagem" type="xs:anyURI"/>
+                            <xs:element name="trailer" type="xs:anyURI"/>
+                            <xs:element name="descricao" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:ID" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
