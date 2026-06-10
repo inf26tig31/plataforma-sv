@@ -20,7 +20,7 @@ O projeto será estruturado através de um sítio Web com quatro páginas estát
 * **XML e XSD:** A arquitetura de dados do catálogo será assegurada por um documento XML estruturado e validado pelo seu respetivo Schema (XSD).
 * **JavaScript:** Como principal elemento de valorização técnica, implementaremos JavaScript no lado do cliente (DOM) para extrair os dados deste XML e gerar, de forma automatizada e dinâmica, as listagens visuais de filmes na página do Catálogo.
 
-## Organização do repositório 
+## ## Organização do Repositório
 
 Navegação pela estrutura do projeto:
 
