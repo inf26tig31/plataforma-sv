@@ -43,6 +43,9 @@ Documentação detalhada do projeto. Cada link abaixo direciona para o respetivo
 **Produto e Requisitos**
 * [Capítulo 3: Implementação e Validação W3C](./documento/capitulo3.md)
 
+* **Apresentação**
+* [Capítulo 4: Implementação e Validação W3C](./documento/capitulo4.md)
+
 ## Equipa
 
 * Alfordes João [@alfordesdf-bot](https://github.com/Username1)
