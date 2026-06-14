@@ -5,7 +5,7 @@ O **StreamFlix** é uma plataforma web de streaming de vídeo desenvolvida como 
 
 ### 3.2. Ligação para o Site (Alojamento Netlify)
 A plataforma encontra-se publicada e totalmente operacional para testes e avaliação através da infraestrutura cloud do Netlify:
-* **Ligação Oficial:** [https://inf26tig31-streamflix.netlify.app](https://inf25tig31.netlify.app/) 
+* **Ligação Oficial:** [https://inf25tig31-streamflix.netlify.app](https://inf25tig31.netlify.app/) 
 
 ### 3.3. Validação W3C
 
